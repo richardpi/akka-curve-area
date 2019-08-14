@@ -20,7 +20,7 @@ Purpose
 To obtain maximum accuracy of area, width (x<sub>2</sub> - x<sub>1</sub>) is partitioned by Int.Max. For each segment
  calculation f(x) is performed and summed.
 
-As calculation of f(x) for Max.Int segments is not trivial and we use akka to make calculation concurrently using 8 akka workers.
+As calculation of f(x) for Int.Max segments is not trivial and we use akka to make calculation concurrently using 8 akka workers.
 
 To compare performance, we can calculate the same area without akka.
 
