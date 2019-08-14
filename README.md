@@ -27,7 +27,7 @@ To compare performance, we can calculate the same area without akka.
 Usage
 -----
 
-```bash
+```
 sbt
 > run
 
@@ -45,7 +45,7 @@ it took (on the same machine):
 
  no akka (CurveArea): 24090 milliseconds
  
- akka (CurveAreaAkka): completed in 2875 milliseconds
+ akka (CurveAreaAkka): 2875 milliseconds
  
  
 On average, calculation with akka is 10x faster.
